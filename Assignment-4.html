@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    body{
+        background-color: rgb(204, 226, 226);
+    }
+    
+    p{
+        width: 70%;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    }
+    h1{
+        margin-top: 250px;
+    margin-left: 80px;
+    width: 70%;
+}
+
+    .wrapper{
+        display: flex;
+    }
+    label{
+        display: grid;
+        width: 40%;
+    }
+    .group{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+    button{
+        margin: 10px 0;
+    padding: 7px;
+    padding-left: 40%;
+    padding-right: 40%;
+    background: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    }
+    .container{
+        border: 1px double white;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 200px;
+    margin-top: 100px;
+
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div>
+            <span>
+    <h1> For Individuals</h1>
+    <p>Start benefitting from the wellness experience. For companies looking on increasing productivity and improving organization wellness.</p></span>
+</div>
+<div class="container">
+    <form>
+        <div class="group">
+<label for=""> First Name <input type="text"></label>
+<label for=""> Last Name <input type="text"></label><br>
+</div>
+<div class="group">
+<label for="">Gender
+    <select name="gender
+    " id="gender">
+    <option value="select_here">Select here</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+</select>
+</label>
+<label for=""> Date of Birth <input type="date"></label><br>
+</div>
+<div class="group">
+<label for=""> Weight(KG) <input type="number" placeholder="Enter Weight"></label>
+<label for="">Height(CM) <input type="number" placeholder="Enter Height"></label><br>
+</div>
+<label for="" class="full-width">Activity Level
+<select name="" id="">
+    <option value="">Select here</option>
+</select><br>
+</label>
+<label for="" class="full-width">Password <input type="password"></label><br>
+<button>Register</button><br>
+By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+    </form>
+</div>
+</div>
+</body>
+</html>
